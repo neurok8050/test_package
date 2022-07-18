@@ -1,0 +1,9 @@
+# Author : Claudéric DeRoy
+# goal : make an attack so throw a d20 dice add your attack modifier and the the
+#        target AC the function will tell if you hit the target.
+# last date of modification : 18 jully 2022
+
+import roll_dice as rd
+
+def make_attack(advantage, attack_bonus, targetAC):
+    
