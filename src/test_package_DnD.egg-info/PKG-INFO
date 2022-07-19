@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: test-package-DnD
+Version: 0.0.1
+Summary: A small example package
+Home-page: https://github.com/neurok8050
+Author: Claudéric
+Author-email: Claudéric DeRoy <clauderic.deroy@umontreal.ca>
+Project-URL: Homepage, https://github.com/pypa/neurok8050/test_package
+Keywords: development,setup,setuptools
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7, <4
+Description-Content-Type: text/markdown
+
+# Test package
+This is just an exercise to practice packaging code in Python.

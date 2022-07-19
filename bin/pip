@@ -1,0 +1,10 @@
+#!/bin/sh
+'''exec' "/home/clauderic/Maîtrise Psychologie/1re_année/3ieme_session/PSY 6983 - Projet en sciences des données neuronales/semaine 1/test_package_DnD/bin/python3" "$0" "$@"
+' '''
+# -*- coding: utf-8 -*-
+import re
+import sys
+from pip._internal.cli.main import main
+if __name__ == '__main__':
+    sys.argv[0] = re.sub(r'(-script\.pyw|\.exe)?$', '', sys.argv[0])
+    sys.exit(main())
